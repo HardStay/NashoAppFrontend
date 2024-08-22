@@ -1,0 +1,28 @@
+/* Sidebar.css */
+.sidebar-custom {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #015869 !important;
+}
+
+.react-pro-sidebar {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #015869 !important;
+}
+/* SidebarMenu.css */
+.custom-menu-item a {
+  padding: 0 !important;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.custom-menu-item a:hover {
+  background-color: #E57D1A !important;
+}
+
+.custom-icon {
+  color: white !important;
+}

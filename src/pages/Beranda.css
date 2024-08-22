@@ -1,0 +1,24 @@
+.imageNahwu {
+  background-image: url("../asset/BerandaNahwu.png");
+}
+.imageSharaf {
+  background-image: url("../asset/BerandaSharaf.png");
+}
+.imageMateri {
+  background-image: url("../asset/Materi.svg");
+}
+
+.imageNamaMateri {
+  background-image: url("../asset/NamaMateri.svg");
+}
+.imageVideoMateri {
+  background-image: url("../asset/VideoMateri.svg");
+}
+.imageIsiMateri {
+  background-image: url("../asset/IsiMateri.svg");
+}
+
+.imageKuis {
+  background-image: url("../asset/Kuis.svg");
+}
+

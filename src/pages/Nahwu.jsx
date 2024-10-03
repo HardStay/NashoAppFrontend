@@ -46,6 +46,11 @@ const Nahwu = () => {
     }
   }, [token, id]);
 
+  const dataTopik = ["Awal","Akhir"];
+  const dataUjian = ["Tengah","Akhir"];
+  let counterTopik = 1;
+  let counterUjian = 1;
+
   return (
     <Layout>
       <div className="h-full min-h-screen mt-0 pt-2">
@@ -75,7 +80,7 @@ const Nahwu = () => {
               <div key={index} className="flex justify-around w-full mb-4">
                 <div className="w-[47.5%]">
                   <p className="text-dark-cyan text-2xl font-semibold mb-5">
-                    Topik
+                    Topik {dataTopik[index]}
                   </p>
                   {phase.materi.map((item, index) => (
                     <div
@@ -92,7 +97,7 @@ const Nahwu = () => {
                       />
                       <div className="flex-1">
                         <p className="text-sm font-medium">
-                          Topik {phase.phase}
+                          Topik {counterTopik++}
                         </p>
                         <p className="font-bold">{item.judul}</p>
                       </div>
@@ -108,7 +113,7 @@ const Nahwu = () => {
                 <div className="border-l-2 border-[#C2C2C2] min-h-[100vh] h-full"></div>
                 <div className="w-[47.5%]">
                   <p className="text-dark-cyan text-2xl font-semibold mb-5">
-                    Ujian
+                    Ujian {dataUjian[index]}
                   </p>
                   {phase.ujian.map((item, index) => (
                     <div
@@ -125,7 +130,7 @@ const Nahwu = () => {
                       />
                       <div className="flex-1">
                         <p className="text-sm font-medium">
-                          Ujian {phase.phase}
+                          Ujian {counterUjian++}
                         </p>
                         <p className="font-bold">Teori dasar Nahwu</p>
                       </div>

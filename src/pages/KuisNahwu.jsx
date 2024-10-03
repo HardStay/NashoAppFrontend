@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import Layout from "./Layout";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SaveIcon from "@mui/icons-material/Save";
@@ -491,7 +490,7 @@ const KuisNahwu = () => {
           <div>
             <NavLink to={`/nahwutopik/${id}`}>
               <button className="bg-dark-cyan mt-2 p-3 text-sm text-white rounded-lg font-medium ml-2 mb-6">
-                &nbsp; Kembali <ArrowForwardIcon />
+              <ArrowBackIcon /> Kembali
               </button>
             </NavLink>
           </div>

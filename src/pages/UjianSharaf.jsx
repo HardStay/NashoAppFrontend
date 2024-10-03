@@ -473,7 +473,7 @@ const UjianSharaf = () => {
             Apakah anda ingin menghapus soal kuis?
           </p>
           <p className="text-base text-[#606060] mt-2">
-            Jika anda tidak menghapus, hapuslah diri anda.
+            Jika anda tidak menghapus, ya sudah.
           </p>
         </div>
         <div className="mt-5 flex justify-end">
